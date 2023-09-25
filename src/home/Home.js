@@ -1,11 +1,9 @@
 import "./home.css";
 import sannyphoto from "../assets/photosanny.png";
-import Header from "../components/header/Header";
 
 const Home = () => {
   return (
     <div>
-      <Header />
       <div className="card-container">
         <div className="card card-side bg-base-100 shadow-xl">
           <figure className="image-container">

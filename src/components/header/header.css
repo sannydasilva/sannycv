@@ -39,7 +39,10 @@ li {
 .navbar-center {
   width: 60%;
   flex-direction: column;
-  margin-left: 30px;
+}
+
+.navbar-end {
+  width: 20%;
 }
 
 .logo {

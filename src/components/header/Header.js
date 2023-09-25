@@ -105,7 +105,7 @@ const Header = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <NavLink to="/">Accueil</NavLink>
+                  <NavLink to="/sannycv">Accueil</NavLink>
                 </li>
                 <li>
                   <NavLink to="/exp">Expériences</NavLink>
@@ -126,12 +126,7 @@ const Header = () => {
           <div className="navbar-end">
             <div className="logo">
               <button onClick={openModal}>
-                <img
-                  className="img-logo"
-                  //   style={{ width: "20%" }}
-                  src={logo}
-                  alt=""
-                />
+                <img className="img-logo" src={logo} alt="" />
               </button>
             </div>
           </div>
