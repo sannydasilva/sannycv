@@ -12,7 +12,7 @@ const Home = () => {
             <img className="img-home" src={sannyphoto} alt="photo de sanny" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Un mot sur mon parcours</h2> <br />
+            <h2 className="card-title">Un mot sur mon parcours</h2>
             <p className="home-paragraphe">
               Après une dizaine d'années dans les métiers administratifs, j'ai
               décidé d'effectuer un virage à 180° dans ma carrière. {<br />}

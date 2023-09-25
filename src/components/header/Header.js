@@ -1,4 +1,8 @@
 import logo from "../../assets/logo3.png";
+import logogithub from "../../assets/githubLogo.png";
+import logomail from "../../assets/mailLogo.png";
+import logolinkedin from "../../assets/linkedinLogo.png";
+import logotel from "../../assets/telLogo.png";
 
 import { useState } from "react";
 import "./header.css";
@@ -35,7 +39,7 @@ const Header = () => {
                 <ul>
                   <a href="mailto:sannydasilvasimoes@gmail.com">
                     <li>
-                      <img src="../src/assets/mailLogo.png" alt="" />
+                      <img src={logomail} alt="mail logo" />
                       sannydasilvasimoes@gmail.com
                     </li>
                   </a>
@@ -45,19 +49,19 @@ const Header = () => {
                     target="_blank"
                   >
                     <li>
-                      <img src="../src/assets/linkedinLogo.png" alt="" />
+                      <img src={logolinkedin} alt="linkedin logo" />
                       https://www.linkedin.com/in/sanny-da-silva/
                     </li>
                   </Link>
                   <Link to="https://github.com/sannydasilva" target="_blank">
                     <li>
-                      <img src="../src/assets/githubLogo.png" alt="" />{" "}
+                      <img src={logogithub} alt="github logo" />{" "}
                       https://github.com/sannydasilva
                     </li>
                   </Link>
                   <a href="tel:0651789423">
                     <li>
-                      <img src="../src/assets/telLogo.png" alt="" /> 0651789423
+                      <img src={logotel} alt="tel logo" /> 0651789423
                     </li>
                   </a>
                 </ul>
@@ -119,15 +123,17 @@ const Header = () => {
             <h1 className="name">Sanny Da Silva</h1>
             <h2 className="subtitle">Développeuse Web</h2>
           </div>
-          <div className="logo">
-            <button onClick={openModal}>
-              <img
-                className="img-logo"
-                style={{ width: "20%" }}
-                src={logo}
-                alt=""
-              />
-            </button>
+          <div className="navbar-end">
+            <div className="logo">
+              <button onClick={openModal}>
+                <img
+                  className="img-logo"
+                  //   style={{ width: "20%" }}
+                  src={logo}
+                  alt=""
+                />
+              </button>
+            </div>
           </div>
         </div>
       </div>
