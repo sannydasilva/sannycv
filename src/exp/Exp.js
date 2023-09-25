@@ -6,7 +6,7 @@ import imageAdmin from "../assets/admin.jpg";
 const Exp = () => {
   return (
     <div>
-      <h1 className="title">Mes différentes expériences</h1>
+      <h1 className="exp-title">Mes différentes expériences</h1>
       <div className="exp-container carousel">
         <div id="slide1" className="carousel-item relative w-full">
           <img src={imageCode} className="img-exp" />
