@@ -44,11 +44,11 @@
   display: flex;
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
-  .absolute.flex.justify-between.transform.-translate-y-1\/2.left-5.right-5.top-1\/2 {
+@media (min-width: 320px) and (max-width: 425px) {
+  /* .absolute.flex.justify-between.transform.-translate-y-1\/2.left-5.right-5.top-1\/2 {
     top: 100%;
     height: 20vh;
-  }
+  } */
   .title {
     font-size: 1.3rem;
   }
