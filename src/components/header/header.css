@@ -1,0 +1,93 @@
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+.coordo-container {
+  /* text-align: center; */
+  margin-top: 30px;
+}
+
+.coordo-container img {
+  display: inline;
+  margin-left: 70px;
+  padding-right: 10px;
+}
+
+li {
+  margin-top: 5px;
+}
+
+.navbar_start {
+  width: 20%;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.navbar-center {
+  width: 60%;
+  flex-direction: column;
+}
+
+.logo {
+  width: 10%;
+  display: contents;
+}
+
+img.img-logo {
+  width: auto;
+  margin-left: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 512px) {
+  .coordo-container img {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+  }
+
+  li {
+    text-align: center;
+  }
+}
+
+@media (max-width: 424px) {
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .card-body {
+    text-align: center;
+  }
+  h2.card-title {
+    display: contents;
+  }
+}
