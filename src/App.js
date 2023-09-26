@@ -5,6 +5,7 @@ import Home from "./home/Home";
 import Header from "./components/header/Header";
 import Exp from "./exp/Exp";
 import ErrorPage from "./404/ErrorPage";
+import Form from "./formation/Form";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/*" element={<ErrorPage />}></Route>
 
           <Route path="/exp" element={<Exp />}></Route>
+          <Route path="/form" element={<Form />}></Route>
         </Routes>
       </BrowserRouter>
     </>

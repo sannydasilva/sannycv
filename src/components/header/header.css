@@ -46,33 +46,16 @@ li {
 }
 
 .logo-button {
-  animation: wiggle 3s linear infinite;
+  animation: pulse 3s ease-in-out infinite;
 }
 
-/* Keyframes */
-@keyframes wiggle {
+@keyframes pulse {
   0%,
-  7% {
-    transform: rotateZ(0);
-  }
-  15% {
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    transform: rotateZ(10deg);
-  }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  30% {
-    transform: rotateZ(6deg);
-  }
-  35% {
-    transform: rotateZ(-4deg);
-  }
-  40%,
   100% {
-    transform: rotateZ(0);
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
   }
 }
 
