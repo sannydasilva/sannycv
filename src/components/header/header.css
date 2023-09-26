@@ -9,9 +9,9 @@
   font-weight: bold;
 }
 
-h1 {
+/* .name {
   text-align: center;
-}
+} */
 
 .coordo-container {
   /* text-align: center; */
@@ -43,6 +43,42 @@ li {
 
 .navbar-end {
   width: 20%;
+}
+
+.logo-button {
+  animation: wiggle 3s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+.coordo-title {
+  text-align: center;
+  font-weight: bold;
 }
 
 .logo {

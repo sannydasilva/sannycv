@@ -1,4 +1,4 @@
-import logo from "../../assets/logo3.png";
+import logo from "../../assets/logo4.png";
 import logogithub from "../../assets/githubLogo.png";
 import logomail from "../../assets/mailLogo.png";
 import logolinkedin from "../../assets/linkedinLogo.png";
@@ -34,7 +34,7 @@ const Header = () => {
         >
           <div className="modal-box">
             <div className="modal-content">
-              <h1>Mes coordonnées</h1>
+              <h1 className="coordo-title">Mes coordonnées</h1>
               <div className="coordo-container">
                 <ul>
                   <a href="mailto:sannydasilvasimoes@gmail.com">
@@ -125,7 +125,7 @@ const Header = () => {
           </div>
           <div className="navbar-end">
             <div className="logo">
-              <button onClick={openModal}>
+              <button className="logo-button" onClick={openModal}>
                 <img className="img-logo" src={logo} alt="" />
               </button>
             </div>
