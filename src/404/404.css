@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70vh;
+  height: fit-content;
 }
 
 .title {
@@ -16,7 +16,8 @@
 }
 
 button.btn.btn-xs.sm\:btn-sm.md\:btn-md.lg\:btn-lg {
-  margin-top: 80px;
+  margin-top: 20px;
   background-color: #fdb03e;
   border: #fdb03e;
+  margin-bottom: 50px;
 }
