@@ -16,7 +16,7 @@ const Form = () => {
         <div className="first-form">
           <div className="card bg-base-100 shadow-xl">
             <figure>
-              <img src={imageOclock} alt="oclock logo" />
+              <img className="img-form" src={imageOclock} alt="oclock logo" />
             </figure>
             <div
               className="form-card"
@@ -44,7 +44,7 @@ const Form = () => {
         <div className="first-form">
           <div className="card bg-base-100 shadow-xl">
             <figure>
-              <img src={imageIfocop} alt="ifocop logo" />
+              <img className="img-form" src={imageIfocop} alt="ifocop logo" />
             </figure>
             <div
               className="form-card"
@@ -66,7 +66,7 @@ const Form = () => {
         <div className="first-form">
           <div className="card bg-base-100 shadow-xl">
             <figure>
-              <img src={imageAfpa} alt="afpa logo" className="form-img" />
+              <img className="img-form" src={imageAfpa} alt="afpa logo" />
             </figure>
             <div
               className="form-card"

@@ -1,4 +1,4 @@
-import logo from "../../assets/logo4.png";
+import logo from "../../assets/logo5.png";
 import logogithub from "../../assets/githubLogo.png";
 import logomail from "../../assets/mailLogo.png";
 import logolinkedin from "../../assets/linkedinLogo.png";
@@ -10,7 +10,12 @@ import "./header.css";
 import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   const [showModal, setShowModal] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   const openModal = () => {
     setShowModal(true);
@@ -84,7 +89,12 @@ const Header = () => {
         <div className="navbar">
           <div className="navbar_start">
             <div className="dropdown">
-              <label tabIndex={0} className="btn btn-ghost btn-circle">
+              <label
+                tabIndex={0}
+                className="btn btn-ghost btn-circle"
+                onClick={toggleMenu}
+              >
+                {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -102,18 +112,20 @@ const Header = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className={`menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ${
+                  menuOpen ? "visible" : "hidden"
+                }`}
               >
-                <li>
+                <li onClick={() => setMenuOpen(false)}>
                   <NavLink to="/sannycv">Accueil</NavLink>
                 </li>
-                <li>
+                <li onClick={() => setMenuOpen(false)}>
                   <NavLink to="/exp">Expériences</NavLink>
                 </li>
-                <li>
+                <li onClick={() => setMenuOpen(false)}>
                   <NavLink to="/form">Formations</NavLink>
                 </li>
-                <li>
+                <li onClick={() => setMenuOpen(false)}>
                   <NavLink to="/hob">Hobbies</NavLink>
                 </li>
               </ul>

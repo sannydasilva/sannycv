@@ -5,6 +5,12 @@
   padding-top: 50px;
 }
 
+.card {
+  background: #000000;
+  color: white;
+  border-radius: initial;
+}
+
 .image-container {
   width: 25%;
 }

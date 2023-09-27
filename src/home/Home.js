@@ -14,11 +14,11 @@ const Home = () => {
             <p className="home-paragraphe">
               Après une dizaine d'années dans les métiers administratifs, j'ai
               décidé d'effectuer un virage à 180° dans ma carrière. {<br />}
-              J'ai donc effectué une formation de développeur web fullstack
-              javascript qui m'a permis d'acquérir les bases du développement.{" "}
-              {<br />}
-              Il me reste évidemment beaucoup de choses à apprendre et à
-              découvrir mais je suis extrêmement motivée. {<br />}
+              J'ai donc sollicté Transition Pro afin de suivre une formation de
+              développeur web fullstack javascript qui m'a permis d'acquérir les
+              bases du développement. {<br />} <br />
+              Il me reste évidemment beaucoup à apprendre et à découvrir mais je
+              suis extrêmement motivée. {<br />}
               Je souhaite continuer mon apprentissage en entreprise, en tant que
               salariée ou alternante.
             </p>

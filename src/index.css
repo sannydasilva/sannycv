@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+  background: #212020;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   height: 100vh;
-  background: #e5e7e64d;
+  background: #212020;
 }
