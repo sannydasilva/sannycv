@@ -29,14 +29,7 @@ const Form = () => {
                 debitis officiis, labore sit ipsum suscipit reprehenderit magni
                 laborum neque ducimus ratione fuga. Magnam optio inventore totam
                 quaerat sapiente vel, sed iste. Magnam quibusdam, fugiat ex
-                ipsum quisquam molestias, at unde accusamus ad voluptas neque.
-                Architecto dolorum molestiae iste! olor sit amet consectetur
-                adipisicing elit. Odio omnis quod debitis officiis, labore sit
-                ipsum suscipit reprehenderit magni laborum neque ducimus ratione
-                fuga. Magnam optio inventore totam quaerat sapiente vel, sed
-                iste. Magnam quibusdam, fugiat ex ipsum quisquam molestias, at
-                unde accusamus ad voluptas neque. Architecto dolorum molestiae
-                iste!
+                ipsum quisqua iste!
               </p>
             </div>
           </div>
@@ -63,7 +56,7 @@ const Form = () => {
             </div>
           </div>
         </div>
-        <div className="first-form">
+        <div className="first-form3">
           <div className="card bg-base-100 shadow-xl">
             <figure>
               <img className="img-form" src={imageAfpa} alt="afpa logo" />
@@ -78,9 +71,10 @@ const Form = () => {
                 dolor sit amet consectetur adipisicing elit. Odio omnis quod
                 debitis officiis, labore sit ipsum suscipit reprehenderit magni
                 laborum neque ducimus ratione fuga. Magnam optio inventore totam
-                quaerat sapiente vel, sed iste. Magnam quibusdam, fugiat ex
-                ipsum quisquam molestias, at unde accusamus ad voluptas neque.
-                Architecto dolorum molestiae iste!
+                qudog chews shoes whose shoes does he choose? Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Odio omnis quod debitis
+                officiis, labore sit ipsum suscipit reprehenderit magni laborum
+                neque ducimus ratione fuga. blablabla
               </p>
             </div>
           </div>

@@ -1,7 +1,7 @@
 .title-form {
   text-align: center;
   font-size: 2rem;
-  margin: 30px 0;
+  margin: 15px 0 5px;
   color: white;
 }
 
@@ -23,6 +23,13 @@
   width: auto;
 }
 
+.first-form3 {
+  margin-top: 10px;
+  text-align: center;
+  width: auto;
+  margin-bottom: 60px;
+}
+
 .img-form {
   margin-top: 10px;
   max-width: 50%;
@@ -30,10 +37,14 @@
 
 @media (min-width: 320px) and (max-width: 699px) {
   .form-container {
-    display: contents;
+    display: flex;
+    width: auto;
   }
   .first-form {
     margin: 20px;
+  }
+  .first-form3 {
+    margin: 0 20px 50px 20px;
   }
   .title-form {
     margin-bottom: 5%;

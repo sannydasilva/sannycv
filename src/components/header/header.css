@@ -50,16 +50,16 @@ li {
 }
 
 .logo-button {
-  animation: pulse 3s ease-in-out infinite;
+  animation: pulse 5s ease-in-out infinite;
 }
 
 @keyframes pulse {
   0%,
   100% {
-    transform: scale(1);
+    transform: scale(0.5);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1);
   }
 }
 
