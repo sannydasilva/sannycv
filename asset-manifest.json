@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sannycv/static/css/main.1dc8120e.css",
+    "main.css": "/sannycv/static/css/main.b87bc459.css",
     "main.js": "/sannycv/static/js/main.7ca13c3a.js",
     "static/js/787.e8810773.chunk.js": "/sannycv/static/js/787.e8810773.chunk.js",
     "static/media/photosanny.png": "/sannycv/static/media/photosanny.b0894dfca3e8274235c3.png",
@@ -11,12 +11,12 @@
     "static/media/oclock.png": "/sannycv/static/media/oclock.92184ac09a4b070e9520.png",
     "static/media/afpa.png": "/sannycv/static/media/afpa.2c98f45dcb3626f5d67f.png",
     "index.html": "/sannycv/index.html",
-    "main.1dc8120e.css.map": "/sannycv/static/css/main.1dc8120e.css.map",
+    "main.b87bc459.css.map": "/sannycv/static/css/main.b87bc459.css.map",
     "main.7ca13c3a.js.map": "/sannycv/static/js/main.7ca13c3a.js.map",
     "787.e8810773.chunk.js.map": "/sannycv/static/js/787.e8810773.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dc8120e.css",
+    "static/css/main.b87bc459.css",
     "static/js/main.7ca13c3a.js"
   ]
 }
