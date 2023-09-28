@@ -9,6 +9,7 @@ const Form = () => {
     <>
       <h1 className="title-form">Formation</h1>
       <div className="form-container">
+        {/* OCLOCK */}
         <div className="first-form">
           <div className="card bg-base-100 shadow-xl">
             <details className="dropdown ">
@@ -26,12 +27,12 @@ const Form = () => {
                   <h2 style={{ margin: "auto" }}>
                     Développeur Fullstack JavaScript
                   </h2>
-                  <h3 style={{ color: "grey" }}>2023</h3>
+                  <h3 style={{ color: "grey", marginRight: "3px" }}>2023</h3>
                 </figure>
               </summary>
 
-              <div className="p-2 shadow menu dropdown-content z-[1] bg-black rounded-box w-auto">
-                <p className="form-description">
+              <div className="form-description">
+                <p>
                   Formation intensive de 6 mois axée sur ledéveloppement web
                   avec JavaScript
                 </p>
@@ -56,6 +57,8 @@ const Form = () => {
             </details>
           </div>
         </div>
+
+        {/* IFOCOP */}
         <div className="first-form">
           <div className="card bg-base-100 shadow-xl">
             <details className="dropdown ">
@@ -71,7 +74,7 @@ const Form = () => {
                   />
                   <div class="arrow"></div>
                   <h2 style={{ margin: "auto" }}>Technicienne comptable</h2>
-                  <h3 style={{ color: "grey" }}>
+                  <h3 style={{ color: "grey", marginRight: "3px" }}>
                     2013
                     <br />
                     2014
@@ -79,13 +82,16 @@ const Form = () => {
                 </figure>
               </summary>
 
-              <p className="p-2 shadow menu dropdown-content z-[1] bg-black rounded-box w-auto">
-                Formation intensive de 6 mois axée sur ledéveloppement web avec
-                JavaScript
+              <p className="form-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                enim consequuntur culpa corporis neque eos quae deserunt?
+                Explicabo, minima beatae?
               </p>
             </details>
           </div>
         </div>
+
+        {/* AFPA */}
         <div className="first-form3">
           <div className="card bg-base-100 shadow-xl">
             <details className="dropdown ">
@@ -98,16 +104,16 @@ const Form = () => {
 
                   <div class="arrow"></div>
                   <h2 style={{ margin: "auto" }}>Formation Bureautique</h2>
-                  <h3 style={{ color: "grey" }}>2005</h3>
+                  <h3 style={{ color: "grey", marginRight: "3px" }}>2005</h3>
                 </figure>
               </summary>
 
               <p className="form-description">
                 <ul style={{ color: "white", fontSize: "0.9rem" }}>
                   <li>- Environnement informatique, messagerie et internet</li>
-                  <li>- Traitement de texte : word</li>
-                  <li>- Tableur : excel</li>
-                  <li>- Présentation de document</li>
+                  <li>- Traitement de texte : Word</li>
+                  <li>- Tableur : Excel</li>
+                  <li>- Présentation de document : Powerpoint</li>
                 </ul>
               </p>
             </details>

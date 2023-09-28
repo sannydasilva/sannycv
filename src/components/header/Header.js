@@ -77,7 +77,7 @@ const Header = () => {
                 onClick={() => {
                   setShowModal(false);
                 }}
-                className="btn btn-primary"
+                className="btn btn-modal"
               >
                 Fermer
               </button>

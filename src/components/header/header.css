@@ -49,6 +49,11 @@ li {
   width: 20%;
 }
 
+.btn-modal {
+  background: #fdb03e;
+  color: black;
+}
+
 .logo-button {
   animation: pulse 5s ease-in-out infinite;
 }
