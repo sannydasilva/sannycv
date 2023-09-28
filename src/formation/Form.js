@@ -22,7 +22,11 @@ const Form = () => {
                     src={imageOclock}
                     alt="oclock logo"
                   />
-                  <h2>Stagiaire développeur Fullstack JavaScript</h2>
+                  <div class="arrow"></div>
+                  <h2 style={{ margin: "auto" }}>
+                    Développeur Fullstack JavaScript
+                  </h2>
+                  <h3 style={{ color: "grey" }}>2023</h3>
                 </figure>
               </summary>
 
@@ -33,13 +37,15 @@ const Form = () => {
                 </p>
                 <ul style={{ color: "white", fontSize: "0.9rem" }}>
                   <li className="li-oclock">
-                    Développement Front-end : HTML, CSS, JAVASCRIPT
+                    - Développement Front-end : HTML, CSS, JAVASCRIPT
                   </li>
                   <li className="li-oclock">
-                    Développement Back-end : NODE.JS, DATABASE, SEQUELIZE
+                    - Développement Back-end : NODE.JS, DATABASE, SEQUELIZE
                   </li>
-                  <li className="li-oclock">Mise en production du site</li>
-                  <li className="li-oclock">Spécialisation Front avec REACT</li>
+                  <li className="li-oclock">- Mise en production du site</li>
+                  <li className="li-oclock">
+                    - Spécialisation Front avec REACT
+                  </li>
                 </ul>{" "}
                 <br />
                 <p style={{ fontSize: "0.8rem" }}>
@@ -63,9 +69,13 @@ const Form = () => {
                     src={imageIfocop}
                     alt="ifocop logo"
                   />
-                  <h2 style={{ marginLeft: "10px" }}>
-                    Stagiaire technicienne comptable
-                  </h2>
+                  <div class="arrow"></div>
+                  <h2 style={{ margin: "auto" }}>Technicienne comptable</h2>
+                  <h3 style={{ color: "grey" }}>
+                    2013
+                    <br />
+                    2014
+                  </h3>
                 </figure>
               </summary>
 
@@ -85,18 +95,20 @@ const Form = () => {
               >
                 <figure className="figure-first-form3">
                   <img className="img-form" src={imageAfpa} alt="afpa logo" />
+
+                  <div class="arrow"></div>
+                  <h2 style={{ margin: "auto" }}>Formation Bureautique</h2>
+                  <h3 style={{ color: "grey" }}>2005</h3>
                 </figure>
               </summary>
 
               <p className="form-description">
-                If a dog chews shoes whose shoes does he choose? Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Odio omnis quod
-                debitis officiis, labore sit ipsum suscipit reprehenderit magni
-                laborum neque ducimus ratione fuga. Magnam optio inventore totam
-                qudog chews shoes whose shoes does he choose? Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Odio omnis quod debitis
-                officiis, labore sit ipsum suscipit reprehenderit magni laborum
-                neque ducimus ratione fuga. blablabla
+                <ul style={{ color: "white", fontSize: "0.9rem" }}>
+                  <li>- Environnement informatique, messagerie et internet</li>
+                  <li>- Traitement de texte : word</li>
+                  <li>- Tableur : excel</li>
+                  <li>- Présentation de document</li>
+                </ul>
               </p>
             </details>
           </div>

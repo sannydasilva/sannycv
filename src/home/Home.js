@@ -16,11 +16,11 @@ const Home = () => {
               décidé d'effectuer un virage à 180° dans ma carrière. {<br />}
               J'ai donc sollicté Transition Pro afin de suivre une formation de
               développeur web fullstack javascript qui m'a permis d'acquérir les
-              bases du développement. {<br />} <br />
-              Il me reste évidemment beaucoup à apprendre et à découvrir mais je
-              suis extrêmement motivée. {<br />}
-              Je souhaite continuer mon apprentissage en entreprise, en tant que
-              salariée ou alternante.
+              bases du développement. {<br />}
+              Je suis extrêmement motivée et souhaite en apprendre davantage et
+              approfondir mes compétences. <br />
+              C'est pourquoi j'aimerais continer mon apprentissage dans votre
+              entreprise
             </p>
           </div>
         </div>

@@ -15,7 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/sannycv" element={<Home />}></Route>
-          <Route path="/*" element={<ErrorPage />}></Route>
+          <Route path="*" element={<ErrorPage />}></Route>
 
           <Route path="/exp" element={<Exp />}></Route>
           <Route path="/form" element={<Form />}></Route>
