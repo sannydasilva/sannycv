@@ -80,7 +80,7 @@ a.btn.btn-circle {
     margin-top: 10px;
   }
   .absolute.flex.justify-between.transform.-translate-y-1\/2.left-5.right-5.top-1\/2 {
-    top: 10%;
+    top: 110%;
   }
 }
 
@@ -93,5 +93,11 @@ a.btn.btn-circle {
 @media (min-width: 801px) {
   .img-exp {
     margin: 50px 10px 0 15px;
+  }
+}
+
+@media (orientation: landscape) {
+  .absolute.flex.justify-between.transform.-translate-y-1\/2.left-5.right-5.top-1\/2 {
+    top: 10%;
   }
 }
