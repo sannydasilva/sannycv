@@ -58,6 +58,10 @@ a.project-link {
   height: initial;
 }
 
+.project-video {
+  text-align: center;
+}
+
 a.btn.btn-circle {
   background: #fdb03e;
 }
@@ -88,9 +92,6 @@ a.btn.btn-circle {
     margin-bottom: 10%;
     margin-top: 10px;
   }
-  /* .absolute.flex.justify-between.transform.-translate-y-1\/2.left-5.right-5.top-1\/2 {
-    top: 110%;
-  } */
 }
 
 @media (min-width: 320px) and (max-width: 360px) {

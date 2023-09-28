@@ -36,7 +36,7 @@ const Form = () => {
                   Formation intensive de 6 mois axée sur ledéveloppement web
                   avec JavaScript
                 </p>
-                <ul style={{ color: "white", fontSize: "0.9rem" }}>
+                <ul style={{ color: "white" }}>
                   <li className="li-oclock">
                     - Développement Front-end : HTML, CSS, JAVASCRIPT
                   </li>
@@ -82,11 +82,22 @@ const Form = () => {
                 </figure>
               </summary>
 
-              <p className="form-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                enim consequuntur culpa corporis neque eos quae deserunt?
-                Explicabo, minima beatae?
-              </p>
+              <ul className="form-description">
+                <li className="li-ifocop">
+                  – Mécanismes fondamentaux de la comptabilité générale
+                  (comptabilité financière)
+                </li>
+                <li className="li-ifocop">
+                  – Utiliser les documents comptables, un tableur, les logiciels
+                  de paie et de comptabilité (Sage Compta Ligne 100 et Sage
+                  Paie)
+                </li>
+                <li className="li-ifocop">– Traiter l’information </li>
+                <li className="li-ifocop">
+                  – Techniques d’organisation comptable{" "}
+                </li>
+                <li className="li-ifocop">– Connaître les bases de la paie.</li>
+              </ul>
             </details>
           </div>
         </div>
@@ -109,11 +120,15 @@ const Form = () => {
               </summary>
 
               <p className="form-description">
-                <ul style={{ color: "white", fontSize: "0.9rem" }}>
-                  <li>- Environnement informatique, messagerie et internet</li>
-                  <li>- Traitement de texte : Word</li>
-                  <li>- Tableur : Excel</li>
-                  <li>- Présentation de document : Powerpoint</li>
+                <ul style={{ color: "white" }}>
+                  <li className="li-afpa">
+                    - Environnement informatique, messagerie et internet
+                  </li>
+                  <li className="li-afpa">- Traitement de texte : Word</li>
+                  <li className="li-afpa">- Tableur : Excel</li>
+                  <li className="li-afpa">
+                    - Présentation de document : Powerpoint
+                  </li>
                 </ul>
               </p>
             </details>
