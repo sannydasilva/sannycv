@@ -29,10 +29,20 @@
   width: auto;
   margin-bottom: 60px;
 }
+.card figure {
+  justify-content: left;
+  color: white;
+}
+figure.figure-first-form3 {
+  justify-content: left;
+}
 
 .img-form {
-  margin-top: 10px;
-  max-width: 50%;
+  max-width: 30%;
+}
+.li-oclock {
+  text-align: left;
+  margin-left: 10px;
 }
 
 @media (min-width: 320px) and (max-width: 699px) {
@@ -44,7 +54,7 @@
     margin: 20px;
   }
   .first-form3 {
-    margin: 0 20px 50px 20px;
+    margin: 20px 20px 50px 20px;
   }
   .title-form {
     margin-bottom: 5%;
