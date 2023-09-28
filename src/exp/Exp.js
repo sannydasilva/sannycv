@@ -11,19 +11,38 @@ const Exp = () => {
         <div id="slide1" className="carousel-item relative w-full">
           <img src={imageCode} className="img-exp" />
           <div className="info-container">
-            <h2 className="subtitle1">Développeuse Front</h2>
+            <h2 className="subtitle1">Développeuse Front chez O'Clock</h2>
             <h3 className="subtitle2">
               Projet de fin de formation : août à sept 2023
             </h3>
-            <p className="description">
-              Réalisation d'une app en équipe avec la méthode agile. <br />{" "}
-              Composition de la team : 3 front et 2 back. <br />
-              -Sprint 0 : Conception des wireframes, cahier de charges, user
-              stories, MLD, MCD <br />
-              -Sprint 1 : Réalisation de la structure côté front, mise en place
-              des composants, css. <br />
-              -Sprint 2 : Connexion avec le back, jwt, base de donnée <br />
-              -Sprint 3 : Crud user, dernier réglage css
+            <div className="description">
+              <p>
+                Réalisation d'une app en équipe avec la méthode agile. <br />{" "}
+                Composition de la team : 3 front et 2 back.{" "}
+              </p>
+              <ul className="description">
+                <li>
+                  -Sprint 0 : Conception des wireframes, cahier de charges, user
+                  stories, MLD, MCD{" "}
+                </li>
+                <li>
+                  -Sprint 1 : Réalisation de la structure côté front, mise en
+                  place des composants, css.{" "}
+                </li>
+                <li>-Sprint 2 : Connexion avec le back, jwt, base de donnée</li>
+                <li>-Sprint 3 : Crud user, dernier réglage css</li>
+              </ul>
+            </div>
+
+            <p className="project-video">
+              Je vous invite à régarder la présentation de notre projet{" "}
+              <a
+                className="project-link"
+                href="https://www.youtube.com/watch?v=oL6xGAaVHzQ&ab_channel=MrYorisu"
+              >
+                {" "}
+                ici{" "}
+              </a>
             </p>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide4" className="btn btn-circle">
@@ -61,18 +80,13 @@ const Exp = () => {
         <div id="slide3" className="carousel-item relative w-full">
           <img src={imageAdmin} className="img-exp" />
           <div className="info-container">
-            <h2 className="subtitle1">Assistante Administrative</h2>
+            <h2 className="subtitle1">Assistante Administrative chez SLS</h2>
             <h3 className="subtitle2">2006 à 2013</h3>
-            <p className="description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-              et officiis perferendis voluptatem perspiciatis vero, accusantium
-              facere provident veritatis at. Quidem necessitatibus excepturi
-              iusto nostrum architecto? Quia commodi non ut vero, ad, rerum
-              iusto impedit nisi molestiae adipisci corporis nam! Natus,
-              deserunt veritatis nisi quo quaerat commodi dolore itaque? Alias,
-              veniam quis! Soluta a dolore dicta earum, corrupti officia autem
-              quae
-            </p>
+            <ul className="description">
+              <li>-Gestion des commandes et litiges</li>
+              <li>-Suivi des livraisons journalières</li>
+              <li>-Prise de RDV</li>
+            </ul>
           </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" className="btn btn-circle">

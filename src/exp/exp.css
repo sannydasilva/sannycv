@@ -39,6 +39,11 @@
   color: white;
 }
 
+a.project-link {
+  color: #fdb03e;
+  text-decoration: underline;
+}
+
 .absolute.flex.justify-between.transform.-translate-y-1\/2.left-5.right-5.top-1\/2 {
   top: 90%;
 }
@@ -50,7 +55,7 @@
   color: white;
   border-radius: 0.5rem;
   margin-bottom: 30px;
-  height: fit-content;
+  height: initial;
 }
 
 a.btn.btn-circle {
@@ -68,6 +73,10 @@ a.btn.btn-circle {
     font-size: 0.8rem;
   }
   .description {
+    font-size: 0.8rem;
+  }
+
+  .project-video {
     font-size: 0.8rem;
   }
   .carousel-item {
@@ -99,5 +108,11 @@ a.btn.btn-circle {
 @media (orientation: landscape) {
   .absolute.flex.justify-between.transform.-translate-y-1\/2.left-5.right-5.top-1\/2 {
     top: 10%;
+  }
+  .project-video {
+    margin-bottom: 50px;
+  }
+  .carousel-item {
+    height: fit-content;
   }
 }
