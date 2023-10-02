@@ -6,6 +6,7 @@ import Header from "./components/header/Header";
 import Exp from "./exp/Exp";
 import ErrorPage from "./404/ErrorPage";
 import Form from "./formation/Form";
+import Hob from "./hobbies/Hob";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 
           <Route path="/exp" element={<Exp />}></Route>
           <Route path="/form" element={<Form />}></Route>
+          <Route path="/hob" element={<Hob />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
