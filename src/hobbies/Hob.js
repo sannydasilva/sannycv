@@ -8,6 +8,7 @@ import Coffre from "../components/Coffre";
 import C18 from "../components/C18";
 import Paint from "../components/Paint";
 import Ship from "../components/Ship";
+import Cat from "../components/Cat";
 
 function Hob() {
   const [isLoading, setIsLoading] = useState(true);
@@ -43,9 +44,10 @@ function Hob() {
       ) : (
         <div style={{ background: "white", height: "82%", width: "100%" }}>
           <Canvas>
-            <ambientLight intensity={0.5} />
+            <ambientLight intensity={0.8} />
             <directionalLight position={[10, 10, 10]} />
             <Sofa />
+            <Cat />
             <Desktop />
             <C18 />
             <Coffre />
