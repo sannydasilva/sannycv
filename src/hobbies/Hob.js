@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Canvas } from "react-three-fiber";
 import { OrbitControls } from "@react-three/drei";
 import Sofa from "../components/Sofa";
@@ -18,7 +18,18 @@ function Hob() {
     }, 7000);
   }, []);
 
-  console.log("Le composant Hob est rendu.");
+  const controls = useRef();
+
+  const handleUpdate = () => {
+    // Limitez l'angle vertical pour empêcher de voir en dessous de la scène
+    if (controls.current) {
+      const { current: orbitControls } = controls;
+      if (orbitControls.getPolarAngle() < 0) {
+        orbitControls.setPolarAngle(0);
+      }
+    }
+  };
+
   return (
     <div style={{ background: "white", height: "82%", width: "100%" }}>
       {isLoading ? (
@@ -41,7 +52,7 @@ function Hob() {
             <Paint />
             <Ship />
             <Table />
-            <OrbitControls />
+            <OrbitControls ref={controls} onUpdate={handleUpdate} />
           </Canvas>
         </div>
       )}
