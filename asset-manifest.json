@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sannycv/static/css/main.94b85fdb.css",
-    "main.js": "/sannycv/static/js/main.0dcf91b8.js",
+    "main.css": "/sannycv/static/css/main.05319706.css",
+    "main.js": "/sannycv/static/js/main.980eb267.js",
     "static/js/787.e8810773.chunk.js": "/sannycv/static/js/787.e8810773.chunk.js",
     "static/media/paint.glb": "/sannycv/static/media/paint.28ff4f1a83d3b703b2d7.glb",
     "static/media/sofa.glb": "/sannycv/static/media/sofa.a81fade36230b1c7a22c.glb",
@@ -10,6 +10,7 @@
     "static/media/c18.glb": "/sannycv/static/media/c18.a76f03cefffc5e57dbbf.glb",
     "static/media/ship.glb": "/sannycv/static/media/ship.f34c796cfe67f83f91b8.glb",
     "static/media/coffre.glb": "/sannycv/static/media/coffre.31298f3e480e74983fef.glb",
+    "static/media/chat.glb": "/sannycv/static/media/chat.e74a97d12dec1c434768.glb",
     "static/media/photosanny.png": "/sannycv/static/media/photosanny.b0894dfca3e8274235c3.png",
     "static/media/code.jpg": "/sannycv/static/media/code.6c2a8ae45f2151d0f104.jpg",
     "static/media/comptable.jpg": "/sannycv/static/media/comptable.1de5a881046f5e7fcb9d.jpg",
@@ -19,12 +20,12 @@
     "static/media/oclock.png": "/sannycv/static/media/oclock.92184ac09a4b070e9520.png",
     "static/media/afpa.png": "/sannycv/static/media/afpa.2c98f45dcb3626f5d67f.png",
     "index.html": "/sannycv/index.html",
-    "main.94b85fdb.css.map": "/sannycv/static/css/main.94b85fdb.css.map",
-    "main.0dcf91b8.js.map": "/sannycv/static/js/main.0dcf91b8.js.map",
+    "main.05319706.css.map": "/sannycv/static/css/main.05319706.css.map",
+    "main.980eb267.js.map": "/sannycv/static/js/main.980eb267.js.map",
     "787.e8810773.chunk.js.map": "/sannycv/static/js/787.e8810773.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94b85fdb.css",
-    "static/js/main.0dcf91b8.js"
+    "static/css/main.05319706.css",
+    "static/js/main.980eb267.js"
   ]
 }
